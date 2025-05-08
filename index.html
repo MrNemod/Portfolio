@@ -1,19 +1,96 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
-    <link rel="stylesheet" href="CSS/style.css">
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portafolio profesional</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Portafolio Profesional</title>
+  <link rel="stylesheet" href="CSS/style.css" />
 </head>
 <body>
+
+  <header>
     <nav>
-        <ul>
-            <li>Home</li>
-            <li>About</li>
-            <li>Projects</li>
-        </ul>
+      <ul>
+        <li><a href="#home">Inicio</a></li>
+        <li><a href="#about">Sobre mí</a></li>
+        <li><a href="#projects">Proyectos</a></li>
+        <li><a href="#skills">Habilidades</a></li>
+      </ul>
     </nav>
-    
+  </header>
+
+  <section id="home" class="section">
+    <img src="assets/avatar.jpg" alt="Avatar" class="avatar" />
+    <h1>Jose Luis Garcia Delgadillo</h1>
+    <h2>Ingeniero en computacion</h2>
+    <p>Una breve presentación personal con tus intereses, estudios, etc.</p>
+    <blockquote>"Ante la duda..."</blockquote>
+  </section>
+
+  <section id="about" class="section">
+    <h2>Sobre mí</h2>
+    <p>
+        Estudiante de ultimo semeste de ingenireia en computacion, conocimientos solidos en MySQL, Python, Java, HTML, CSS y JavaScript.
+        Me gusta aprender nuevas tecnologias y mejorar mis habilidades. Me interesa el desarrollo web y la inteligencia artificial.</p> 
+    </p>
+    <div class="tech-icons">
+      <!-- Logos de tecnologías -->
+      <img src="assets/html.png" alt="HTML" />
+      <img src="assets/css.png" alt="CSS" />
+      <img src="assets/js.png" alt="JavaScript" />
+      <!-- Añade más si quieres -->
+    </div>
+  </section>
+
+  <section id="projects" class="section">
+    <h2>Proyectos</h2>
+    <div class="project-gallery">
+      <div class="project">
+        <img src="assets/project1.png" alt="Proyecto 1" />
+        <h3>Proyecto 1</h3>
+        <p>Descripción del proyecto 1.</p>
+        <a href="#" target="_blank">Ver proyecto</a>
+      </div>
+      <!-- Repite este bloque para los otros proyectos -->
+    </div>
+  </section>
+
+  <section id="skills" class="section">
+    <h2>Habilidades Técnicas</h2>
+    <ul class="skills-list">
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+        <li>Python</li>
+        <li>Java</li>
+        <li>MySQL</li>
+        <li>Git</li>
+        <li>Node.js</li>
+        <li>React</li>
+        <li>Bootstrap</li>
+        <li>Flask</li>
+        <li>Django</li>
+        <li>Machine Learning</li>
+        <li>Inteligencia Artificial</li>
+        <li>Desarrollo Web</li>
+        <li>Desarrollo de Aplicaciones</li>
+        <li>Desarrollo de Software</li>
+        <li>Desarrollo de Aplicaciones de Escritorio</li>
+        <li>Desarrollo de APIs</li>
+        <li>Desarrollo de Microservicios</li>
+        <li>Desarrollo de Sistemas Distribuidos</li>
+        <li>Scikit-learn</li>
+        <li>NumPy</li>
+        <li>Pandas</li>
+        <li>Matplotlib</li>
+      <!-- Agrega más -->
+    </ul>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 - Tu Nombre</p>
+  </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
