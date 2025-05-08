@@ -116,4 +116,10 @@ body {
     transform: scale(0.95);
     background: #4a004a;
   }
+
+  pre {
+    width: 100%;
+    overflow-x: auto;
+    word-wrap: break-word;
+  }
   
