@@ -22,6 +22,10 @@ body {
     list-style: none;
     gap: 2rem;
   }
+
+  nav ul li:hover {
+    background: #530053;
+  }
   
   nav ul li a {
     color: #fff;
@@ -38,6 +42,8 @@ body {
     width: 150px;
     border-radius: 50%;
     box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    object-position: 0px 15px;
+    object-fit: cover;
   }
   
   .tech-icons img {
@@ -78,5 +84,36 @@ body {
     padding: 1rem;
     background: #111;
     color: white;
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .link {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    background: #530053;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background 0.3s ease, transform 0.2s ease;
+  }
+
+  .link:hover {
+    background: #7a007a;
+    transform: scale(1.05);
+  }
+
+  .link:focus {
+    outline: 2px dashed #ffffff;
+    outline-offset: 3px;
+    background: #7a007a;
+  }
+
+  .link:active {
+    transform: scale(0.95);
+    background: #4a004a;
   }
   
